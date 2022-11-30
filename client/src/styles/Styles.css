@@ -31,6 +31,7 @@ li {
   box-shadow: 0px 0px 10px rgba(0, 0, 0,0);
   transition: box-shadow 0.5s;
   position: relative;
+  background: linear-gradient(90deg, #2EDE8F 0%, #218CCC 100%);
 
 }
 
@@ -68,6 +69,7 @@ li {
   justify-content: center;
   padding: 0 1rem;
   position: relative;
+  background: linear-gradient(90deg, #2EDE8F 0%, #218CCC 100%);
 }
 
 .authContainer{
@@ -83,10 +85,12 @@ li {
   width: 80vw;
   height: 80vh;
   display: flex;
+  border-radius: 10px;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
   padding: 2rem;
+  background-color: aliceblue;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -102,6 +106,7 @@ li {
   width: 50%;
   height: 100%;
   padding: 4rem;
+  background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
